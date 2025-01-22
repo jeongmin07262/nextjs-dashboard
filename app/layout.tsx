@@ -1,5 +1,7 @@
 // global.css 적용하기
 import '@/app/ui/global.css';
+// 글꼴 적용하기
+import { inter } from '@/app/ui/fonts';
 
 export default function RootLayout({
   children,
@@ -8,7 +10,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      {/* body에 글꼴 적용 */}
+      <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
 }
