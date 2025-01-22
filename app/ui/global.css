@@ -1,3 +1,5 @@
+/* 모든 라우트에 적용할 공통적인 CSS를 정의할 때 사용 */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

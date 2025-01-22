@@ -1,3 +1,6 @@
+// global.css 적용하기
+import '@/app/ui/global.css';
+
 export default function RootLayout({
   children,
 }: {
